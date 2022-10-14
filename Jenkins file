@@ -1,13 +1,7 @@
-provider "aws" {
- 	region = "ap-south-1"
-    access_key = "AKIAYWHLLCQ5SWMOJMVF"
-    secret_key = "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"
-}
-
-resource "aws_s3_bucket" "first_bucket_123"  {
-    bucket = "qttfoct1234"
+resource "aws_s3_bucket" "first_bucket_1234"  {
+    bucket = "qttfoct12345"
     tags = {
-            Name        = "My bucket from TF"
+            Name        = "My bucket from TFf"
             Environment = "Devill"
     }
 }
