@@ -1,9 +1,5 @@
 pipeline{
-    agent any
-    tools {
-        terraform 'terraform'
-    }
-    
+    agent { label 'terraform'}
      stages{
         stage('VCS'){
             steps{
