@@ -1,7 +1,7 @@
-resource "aws_s3_bucket" "first_bucket_012"  {
-    bucket = "qttfoct012"
+resource "aws_s3_bucket" "first_bucket_0123"  {
+    bucket = "qttfoct0123"
     tags = {
-            Name        = "My bucket from TFf012"
-            Environment = "Devi012"
+            Name        = "My bucket from TFf0123"
+            Environment = "Devi0123"
     }
 }
