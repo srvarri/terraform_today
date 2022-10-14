@@ -1,7 +1,0 @@
-resource "aws_s3_bucket" "first_bucket_0"  {
-    bucket = "qttfoct0"
-    tags = {
-            Name        = "My bucket from TFf0"
-            Environment = "Devi0"
-    }
-}
